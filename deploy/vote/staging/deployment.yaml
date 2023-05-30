@@ -15,6 +15,6 @@ spec:
         name: vote
         envFrom: 
           - configMapRef: 
-              name: votes
+              name: vote
               optional: true
 
