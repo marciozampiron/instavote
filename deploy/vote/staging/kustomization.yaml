@@ -18,3 +18,8 @@ commonLabels:
   env: staging
 commonAnnotations:
   supported-by: "marciozampiron@gmail.com"
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=DEV
